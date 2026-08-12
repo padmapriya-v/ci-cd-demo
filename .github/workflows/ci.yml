@@ -18,9 +18,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        working-directory: ./ci-cd-demo
         run: npm install
 
       - name: Test
-        working-directory: ./ci-cd-demo
         run: npm test
